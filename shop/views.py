@@ -82,4 +82,4 @@ def signinView(request):
 
 def signoutView(request):
     logout(request)
-    return redirect('accounts/signin')
+    return redirect('signin')

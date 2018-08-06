@@ -10,9 +10,12 @@ urlpatterns = [
     path('shop/', include('shop.urls')),
     path('search/', include('search.urls')),
     path('cart/', include('cart.urls')),
+    path('order/', include('order.urls')),
+    path('accounts/create/', views.signupView, name='signup'),
+    path('accounts/login/', views.signinView, name='signin'),
+    path('accounts/logout/', views.signoutView, name='signout'),
 ]
 
 if settings.DEBUG:
     urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
