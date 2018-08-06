@@ -1,4 +1,4 @@
-
+[![Build Status](https://travis-ci.org/90t/bigmomma.svg?branch=master)](https://travis-ci.org/90t/bigmomma)
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
     |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
@@ -20,3 +20,4 @@ The Cloud9 IDE team
 bigmommas
 
 Django-2.1
+
