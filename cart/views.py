@@ -4,7 +4,8 @@ from .models import Cart, CartItem
 from django.core.exceptions import ObjectDoesNotExist
 import stripe
 from django.conf import settings
-from order.models import Order, OrderItem
+from.template.loader import get_template
+from django.core.mail import EmailMessage
 
 
 def _cart_id(request):
