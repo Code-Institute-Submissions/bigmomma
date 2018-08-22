@@ -7,3 +7,11 @@ Django-2.1
 super
 clivedennisnoona@gmail.com
 thebigfree1
+
+
+
+
+name;tom
+user:tomas
+email;tom@gmail.com
+password:5689kjiutfg
