@@ -1,5 +1,5 @@
 import os
-# import env 
+import env 
 import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -169,5 +169,5 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 EMAIL_HOST = 'smtp.mailgun.org'
 EMAIL_PORT = '587'
 EMAIL_USE_TLS = True
-EMAIL_USER = 'postmaster@sandboxda1fe714f3ba41edb71322cd19bac262.mailgun.org'
-EMAIL_HOST_PASSWORD = 'e3c75bd039939086308afdf4e100f4a3-80bfc9ce-0b79dc8c'
+EMAIL_USER = 'postmaster@clivesplatform.noonan.com'
+EMAIL_HOST_PASSWORD = 'e03ca243751a97bf0407980dc64dd215-a4502f89-b15eaabf'
