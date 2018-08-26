@@ -169,5 +169,5 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 EMAIL_HOST = 'smtp.mailgun.org'
 EMAIL_PORT = '587'
 EMAIL_USE_TLS = True
-EMAIL_USER = 'postmaster@clivesplatform.noonan.com'
-EMAIL_HOST_PASSWORD = 'e03ca243751a97bf0407980dc64dd215-a4502f89-b15eaabf'
+EMAIL_USER = ''
+EMAIL_HOST_PASSWORD = ''
