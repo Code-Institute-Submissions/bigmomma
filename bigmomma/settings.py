@@ -1,5 +1,6 @@
+
 import os
-# import env 
+import env 
 import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -75,24 +76,24 @@ WSGI_APPLICATION = 'bigmomma.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
-
-
-if "DATABASE_URL" in os.environ:
-    DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL')) }
-else:
-    print("Database URL not found. Using SQLite instead")
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
+}
+
+
+# if "DATABASE_URL" in os.environ:
+#     DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL')) }
+# else:
+#     print("Database URL not found. Using SQLite instead")
+#     DATABASES = {
+#         'default': {
+#             'ENGINE': 'django.db.backends.sqlite3',
+#             'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+#         }
+#     }
 
 
 # Password validation
@@ -170,4 +171,3 @@ EMAIL_HOST = 'smtp.mailgun.org'
 EMAIL_PORT = '587'
 EMAIL_USE_TLS = True
 EMAIL_USER = ''
-EMAIL_HOST_PASSWORD = ''
