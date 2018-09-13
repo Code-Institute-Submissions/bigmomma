@@ -168,7 +168,7 @@ STRIPE_SECRET = os.getenv('STRIPE_SECRET')
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-EMAIL_HOST = 'smtp.mailgun.org'
-EMAIL_PORT = '587'
-EMAIL_USE_TLS = True
+EMAIL_HOST = '
+EMAIL_PORT = ''
+EMAIL_USE_TLS = 
 EMAIL_USER = ''

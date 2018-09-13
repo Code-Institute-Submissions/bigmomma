@@ -1,4 +1,7 @@
 [![Build Status](https://travis-ci.org/90t/bigmomma.svg?branch=master)](https://travis-ci.org/90t/bigmomma)
+
+pip3 freeze --local > requirements.txt
+
 #### Clive Noonan , Full Stack Student In CODE INSTITUTE
 ### by Clive Noonan
 
@@ -25,7 +28,7 @@
 
 
 
-# The theme of this website is geared towards the surfing niche, while sticking to best practises,the colors should act as backdrop & create a focus point for the products,
+# The theme of this website is geared towards the surfing niche, while sticking to best practises,the colors should act as a backdrop & create a focus point for the products,
 
 # The content is intented to be informative to the subjects in point.
 
@@ -68,12 +71,13 @@ This Project also makes use of HTML form validation
 # Stripe
 
 
-Existing Features
-All media files being served from AWS
+
 Features Left to Implement
 Migrate To progressive Web App
 Build the Weather App in Android
 Total dimensional optimisation of all images
+
+
 Technologies Used
 
 # HTML5
