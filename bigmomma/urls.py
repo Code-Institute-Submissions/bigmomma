@@ -4,6 +4,7 @@ from django.contrib.auth import views as authViews
 from shop import views
 from django.conf import settings
 from django.conf.urls.static import static
+from ckeditor.fields import RichTextField
 
 urlpatterns = [
     path('admin/', admin.site.urls),
