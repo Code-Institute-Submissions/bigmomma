@@ -277,6 +277,7 @@ a {
 
 .my_custom_menu {
     text-align: right !important;
+    background-position: fixed;
 
 }
 

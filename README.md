@@ -1,42 +1,35 @@
 [![Build Status](https://travis-ci.org/90t/bigmomma.svg?branch=master)](https://travis-ci.org/90t/bigmomma)
-
-#### Code Institute - Stream 3 Project
+#### Clive Noonan , Full Stack Student In CODE INSTITUTE
 ### by Clive Noonan
+
+## I am currently a student at the Code Institute Studing Full Stack Diploma in ## Software Development.
+
+## This is the fifth of five projects which I must complete in order to be awarded the globally recognised Diploma
+
+## from Edinburgh Napier University. This Project utilises Python Django Framework.
 ## What my Appliaction does and the needs it fulfils
 
-# This Appliaction is a eCommerce SurfStore website. the concept of this idea came from a few days surfing in inchadoni. The website is needed for e-commerce, advertising and providing all the necessary information about the beauty salon. It provides details about treatments and prices, news and special offers, contact and location. It also provides an online store for buying beauty products.
+# This Appliaction is a eCommerce SurfStore website. the concept of this idea came from a few days surfing in inchadoni.
 
-Clive Noonan , Full Stack Student In CODE INSTITUTE
+# The name for the store came from , my son & step sons , when did would see they big waves coming they would shout out "The big mommas are coming"
 
-I am currently a student at the Code Institute Studing Full Stack Diploma in Software Development.
+# The need for this eCommerce store comes from the increase in the surfing culture in Ireland, with steady growth, & if we get another summer like the one we just did , then there will be a big demand for surf boards & surf gear
+.
 
-This is the fifth of five projects which I must complete in order to be awarded the globally recognised Diploma
+# My Main Interest for this project was to work off my surfing experience in a few days surfing in inchydony Irland this summer, 
 
-from Edinburgh Napier University. This Project utilises The Front End Trifecta .
+# It is a fully responsive website, to fit all screen sizes
 
-This project is based on a custom extreme adventures holiday Business & An App & Geolocation
 
-My Main Interest for this project was to work off my surfing experience in a few days surfing in inchydony Irland this summer, 
+# This indent of this eCommecre app  is entended to make it as easy & pain free to purcahse a surf board online with the sripe payment system
 
-with extreme sports & how a custom holiday company that would or could provided the services needed to fulfill
 
-the scope of this company would be truly amazing .
 
-This project was based mainly on the front Django FullStack, it is a static website,
+# The theme of this website is geared towards the surfing niche, while sticking to best practises,the colors should act as backdrop & create a focus point for the products,
 
-It is a fully responsive website, to fit all screen sizes
+# The content is intented to be informative to the subjects in point.
 
-From a broad perspective it does not have a database.
-
-This business website is entended to lure the user in to see whats it all about, it is based an alpine adventures company which caters for climbing , sking & - snowboarding packages, with a company app & api teasers ,
-
-A small pricing & packing table is provided to try to induce our customer to look further & enquire more.
-
-The theme of this website is geared towards the sports & travel niche, while sticking to best practises,the colors should protray afeeling - of movement & style,
-
-The content is intented to be informative to the subjects in point.
-
-The site is designed in such a way that its not very easy to get lost , when a user is on the guide page, he can not go to the app page , similer , when a user - is on the app page he can not go to the Guide page , but all pages can be accessed from the home page , reducing the amount of routes to the same origin , this - was indented to reduce fustration & confusion
+# The site is designed in such a way that its not very easy to get lost , when a 
 
 UX
 Scenario-1
@@ -52,103 +45,85 @@ User6 is picked up at 12:30 from creche , after arriving home , user6 picks up h
 2 Weeks Later
 User1 arrive,s at the office , when turning on his computer he notices User4, User3, User2, arrive togther , 10 min late User7 arrives after dropping User6 to creche , User 1 approachs all the Users & begins discussing there week away, after a lengthy discussion , they all make a discion on a date , User4 says to User3 "Will you drop that company we were all sepaking about, an email, you know how I hate using mobile phones, you know the name Freestyler , 4:00 o CLOCK... all the Users meet at the coffe pod on there floor , each one knows what each is other is thinking , User1 looking out the window of Goolge HQ in Dublin Ireland says ," guys do ye realise that Freestyler site is wide open for massive development" , I have contacted ROCC Software & arranged a meeting , looks like we will be holding off on that week lads,
 User7 pops up & says " has anyone heard from User5 ", they look & relaise, User1 Says OK Lads lets get to work on finding User5, he did mention a restaurant that appeared when using Freestyler pro , we will start there , to be continued......
-FEATURES
-##APP Along side the main website , there is another element geered towrads the growth & marketing , which comes in the form of a start up & coming app to accompany the customer on there travels , of course this app is top of the line , with the up to date features.
 
-API
+
+
+
+
+FEATURES
+
+# Spalsh Page
 With a mini feature of an api in the form of an weather API, this is the give the user a quick view of the up and coming app , that is the scope of the marketing call for the app page.
 
-GeoLocation
+# Accounts
 With one more element which comes in the form of a restaurant API , powered GoogleGeoLoaction, this will request the user location , if the user chooses to agree to the browser then they will have the abilty to see & read the distance from there currrent location to the restaurant which is displyed on the front end, or the users viewport , while this feature does not have a database, it requires the data form a small json format in our js script, keepin this in mind to be very slim with the data bacause of googles page speed ,
 
-HTML FORM VALIDATION
+# Cart
 This Project also makes use of HTML form validation
 
 2 Contact forms , one on each page gives the user the abilty to contact the company thru the use of Formspree.io, this will provide the user with a " back to original site " option , so in turn keeping our user on our website
 
-HTML video,
+# Checkout
+
+# Stripe
+
 
 Existing Features
-All media files being served from AWS, except (logo)
+All media files being served from AWS
 Features Left to Implement
 Migrate To progressive Web App
 Build the Weather App in Android
 Total dimensional optimisation of all images
 Technologies Used
-HTML5
 
-The project uses HTML5 to house the sturcture & the base semantics.
-CSS3
+# HTML5
+# The project uses HTML5 to house the sturcture & the base semantics.
 
-The project uses CSS3 to to Style the elements, Responsive WebDesign & to introduce animations.
-Js
+# CSS3
+# The project uses CSS3 to to Style the elements, Responsive WebDesign 
 
-The project uses Js to add interactivity & makes use of local storage.
-BootStrap3
+# JS
+# The project uses Js to interact with stripe
 
-The project uses BootStrap3 to assist the Developer with a build in css libaray ,aswell reusable components & responsive image classes, .
-JQuery
+# Bootstarp4
+# The project uses BootStrap3 to assist the Developer with a build in css lib 
 
-The project uses JQuery to simplify DOM manipulation aswell as making use a number of various different exstentions & liberarys..Such as
+# The project uses JQuery to simplify DOM manipulation aswell as making use a number of various different exstentions & liberarys..Such as
 
-The project uses easing to simplify Development
 
-The project uses counter to simplify Development
+# Cloud9
+# The project uses Cloud9 to Write/Code & format the syntax in various languages.
 
-The project uses isotope to simplify Development
 
-The project uses owl-carousel to simplify Development
+# GoogleFonts
+# The project uses GoogleFonts to inhance webfonts & increase seo conversion, also to assist the developer in creating a consistant textual flow
+# 
 
-The project uses waypoints to simplify Development
+# Fontawesome5
+# The project uses fontawesome to inhance webfonts & increase seo conversion, # # # also to assist the developer in creating a consistant textual flow
 
-WebStrom
 
-The project uses webstorm to Write/Code & format the syntax in various languages.
-Adobe Ai
+# The project uses LightHouseChromeExstention to test seo data & accsseibitly & # best practices
 
-The project uses Adobe Ai to create Isomorphic Illustrations & Logos & MockUps
-LineaBasicIconFonts
 
-The project uses LineaBasicIconFonts to create a strong & characteristic visual refrence to point of focus.
-GoogleFonts
+# validator.w3
+# The project uses validator.w3 to test seo data & accsseibitly & best practices
 
-The project uses GoogleFonts to enhance the use visual text & ensure readabilty on various platforms & screens
-GoogleGeoLocationAPI
+# jigsaw.w3
+# The project uses jigsaw.w3 to test validation of CSS3
 
-The project uses GoogleGeoLocationAPI to locate the users location thru the use of wifi
-FontAwesome
-
-The project uses fontawesome to inhance webfonts & increase seo conversion, also to assist the developer in creating a consistant textual flow
-Tinypng/jpeg
-
-The project uses tinypng to compress pictures & ilustrations
-openweathermap
-
-The project uses openweathermap to require data thru the use of an API or Apllication Porgrammable Interface
-LightHouseChromeExstention
-
-The project uses LightHouseChromeExstention to test seo data & accsseibitly & best practices
-validator.w3
-
-The project uses validator.w3 to test seo data & accsseibitly & best practices
-jigsaw.w3
-
-The project uses jigsaw.w3 to test validation of CSS3
-BracketsMinifierExstention
-
-The project uses BracketsMinifierExstention to minify CSS3
-Git&GitHub
-
+# Git&GitHub
 The project uses https://github.com/ to version control the development project
-FireBase
+
+# heroku
 
 The project uses https://firebase.google.com/ to deploy the production project
 Compressor
 
-The project uses https://compressor.io/ to compress images
-AWS
 
-The project uses https://us-east-2.console.aws.amazon.com/console to host images
+# AWS
+# The project uses https://us-east-2.console.aws.amazon.com/console to host images & static files
+
 Testing
 I ran all my files through a validation test using
 Passing 100%
