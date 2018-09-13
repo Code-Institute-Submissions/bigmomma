@@ -3,32 +3,34 @@
 pip3 freeze --local > requirements.txt
 
 #### Clive Noonan , Full Stack Student In CODE INSTITUTE
-### by Clive Noonan
 
 ## I am currently a student at the Code Institute Studing Full Stack Diploma in ## Software Development.
 
-## This is the fifth of five projects which I must complete in order to be awarded the globally recognised Diploma
+## This is the fifth of five projects which I must complete in order to be awarded the globally recognised Diploma from Edinburgh Napier University.
 
-## from Edinburgh Napier University. This Project utilises Python Django Framework.
+##  This Project utilises Python Django Framework.
 ## What my Appliaction does and the needs it fulfils
 
-# This Appliaction is a eCommerce SurfStore website. the concept of this idea came from a few days surfing in inchadoni.
+# This Appliaction is a eCommerce SurfStore website, the concept of this idea came from a few days surfing in inchadoni.
 
-# The name for the store came from , my son & step sons , when did would see they big waves coming they would shout out "The big mommas are coming"
+# The name for the store came from , my son & step sons , when did would see they the big waves coming they would shout out "The big mommas are coming"
 
 # The need for this eCommerce store comes from the increase in the surfing culture in Ireland, with steady growth, & if we get another summer like the one we just did , then there will be a big demand for surf boards & surf gear
 .
 
-# My Main Interest for this project was to work off my surfing experience in a few days surfing in inchydony Irland this summer, 
+# My Main Interest for this project was to work off my surfing experience in a few days surfing in inchydony Ireland this summer, 
 
 # It is a fully responsive website, to fit all screen sizes
 
 
-# This indent of this eCommecre app  is entended to make it as easy & pain free to purcahse a surf board online with the sripe payment system
+# This indent of this eCommecre app  is entended to make it as easy & pain free to purcahse a surf board & accerroies online with the sripe payment system
 
 
 
 # The theme of this website is geared towards the surfing niche, while sticking to best practises,the colors should act as a backdrop & create a focus point for the products,
+
+
+# It is also intended to capture the attention of surfers as the main customer
 
 # The content is intented to be informative to the subjects in point.
 
