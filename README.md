@@ -13,15 +13,15 @@ Django-2.1
 ## This Project utilises Python Django Framework.
 ## What my Application does and the needs it fulfils
 
-# This Application  is a eCommerce SurfStore website, the concept of this idea came from a few days surfing in inchyadoni.
+# This Application  is a eCommerce SurfStore website, the concept of this idea came from a few days surfing in inchydoney..
 
-# The name for the store came from , my son & step sons , when did would see they the big waves coming they would shout out "The big mommas are coming"
+# The name for the store came from , my son & step sons , when did would see the big waves coming they would shout out "The big mommas are coming"
 
 # The need for this eCommerce store comes from the increase in the surfing culture in Ireland, with steady growth, &
 # if we get another summer like the one we just did , then there will be a big demand for surf boards & surf gear
 .
 
-# My Main Interest for this project was to work off my surfing experience in a few days surfing in inchyadony Ireland this summer, 
+# My Main Interest for this project was to work off my surfing experience in a few days surfing in inchydoney Ireland this summer, 
 
 
 ## UX
@@ -35,7 +35,7 @@ Django-2.1
 
 # It is also intended to capture the attention of surfers as the main customer
 
-# The content is indented to be informative to the subjects in point.
+# The content is indented to be informative to the products.
 
 # The site is designed in such a way that its not very easy to get lost , most of the interaction between the application & the
 # Customer is carried out on the main page
@@ -103,12 +103,12 @@ Django-2.1
 ## After the user has finisehd there purcahse & there thank you page has come thru , the user will be sent an email from the Mial gun email API, this email will arrive in the from a HTML Templte to there email address that signed up wit.
 
 ### Admin & richTextEditor
-## In this eCommerce Appliaction the back end admin has the abitly to create users, update & create products & catergories & Content
+## In this eCommerce Application the back end admin has the abitly to create users, update & create products & catergories & Content with the use of Django richTextEditor
 
 
 
 ## THE FUTURE
-##### I hope to develop on this project in the future to an even bigger online ecommerce Store with a front react & a backend rest auth system
+##### I hope to develop on this project in the future to an even bigger online ecommerce Store with a frontend react & a backend rest api auth system
 ##### intergration with eCommecre platforms such as Ebay & Shopify
 ##### Get 100% in LightHouse
 ##### Migration to nginx server.
@@ -206,63 +206,52 @@ Tested On
 
 ## Testing
 
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
 
+USER1 :
+gets wind of an awesome surfing website where he can buy surfboards,
+he finds the link thru soacial media & connects , he browses the site for a few minutes & decides he might make a purchase , he completes his purchase with out having to create an account
 Test1 User1 ( True/False )
-Was User1 able to connect to the website ?
+Was User1 able to complete his purchase with out having to create an account?
 True
-Test1 User1 ( True/False )
-Was User1 able to navigate around the site ?
-True
-RESULT 100%
+
+
+USER2:
+is just packing up from surfing for the day, when she hears an advert on the radio about an online surf shop , she clicks on ,after being in the water all day she fills in her details incorrectly, she tries again with all the correct details , but being in such a hurry , she never finishes the task , so she puts the phone down , when she arrives home , she brings her mobile with her , she puts it down , her daugther picks it up & begins exploring the website, she gets thru most of it & discovers the cart , she manages to get all the way with a pink surfboard she quite fancied, she gets to the stripe popup box, & recalls her dad working treiesly on something the exact same on his computer, she remembers what to do , she manages to remeber the test long password with the same numbers , then she remembers the easy one with 3 numbers , 
+
+She is then left with the calender, she does not qiute understand this type of calender, so she fills in what she knows and carrys on , she see,s the little box shake with disagreement & decides she better put it away
+
 Test1 User2 ( True/False )
-Was User2 able to navigate around the site ?
-True
-Test1 User2 ( True/False )
-Was User2 able to complete the task of filling out the details in the incorrect format ?
-False
-Test1 User2 ( True/False )
-Was User2 able to complete the task of filling out the details in the correct format ?
-True
-RESULT 100%
-Test1 User4 ( True/False )
-Was User4 able to navigate around the site with his disabilty?
-True
-Test1 User4 ( True/False )
-Was User4 able to connect to geoLocation ?
-True
-RESULT 100%
-Test1 User5 ( True/False )
-Was User5 able to connect to the website on satellite internet ?
-True
-Test1 User5 ( True/False )
-Was User5 able to navigate around the site ?
-True
-Test1 User5 ( True/False )
-Was User5 able to connect to geoLocation ?
-True
-Test1 User5 ( True/False )
-Was User5 found ?
-Unknown
-RESULT Inconclusive
-Test1 User6 ( True/False )
-Was User6 able to submit a email message after comtinulsy pressing the contact section or break the site ?
-False
-Test1 User6 ( True/False )
-Was User6 able to navigate around the site ?
-True
+Was User2 able to create an account when she filled in her details incorrectly?
+Falsh
+Was User2 daugther able to make a purchase when she filled in her details incorrectly?
+falsh
 RESULT 100%
 
+
+
+USER3
+is coming home from work on the bus  he begins to shoulder surf another passengers laptop , as he admires the website he retrives his mobile from his pocket & reads the address, connects to the website, he attempts signing up for the first time , USER3 has only been using a mobile for a week he has spent most of his life on the beach, must be why his eyes are so good,
+he fills in his details with the first name & the last name as the same name,
+he then attempts to only enter in 6 characters in the passsword field, with an incorrect email address , 
+
+After a bit of a shock from all the errors he concetrates on the insructions before him , after a few minutes studying , he fills out all the info correctly, except for his email address, he then attempts for the second time to register an account , observing the error , he realises he has forgotten his @ symbol , he then corrects his typo & proceeds , 
+
+Test1 User3 ( True/False )
+Was User3 able to create an account when he filled in his details incorrectly?
+Falsh
+Was User3 able to create an account when he filled in his details with just the @ symbol missing?
+falsh
+Was User3 able to create an account when he filled in his details correctly?
+True
+RESULT 100%
+ 
 
 # This Full Stack Framework eCommecre application looks & responses very very well across all screen sizes 
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+# There is one problem with my application & it is a subscription I have been locked out of my mail gun because I mistakenly pushed an api key , after removing the api key from GitHub I proceeded to contact mailgun,There I followwed the support team I correcting all the details of my account , where I set up 2step verification using the Google Auth App  but now I am totally locked out of my account.
+I tried to signup for another account but they only except 1 mobile number & 1 credit card number My Project is ready & setup for email intergration as soon as mailgun unlocks my account, I am presently in contact with Mailgun, 
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+ 
 
 ## Deployment
 
@@ -347,11 +336,11 @@ If this section grows too long, you may want to split it off into a separate fil
 ## My GitHub repo can be viewed [here](https://github.com/90t/bigmomma)
 
 
-## To Run this code Locally , a number of choices , you can go to [github](https://github.com/90t/public)
+## To Run this code Locally , a number of choices , you can go to [github](https://github.com/90t/bigmomma)
 
 ## & download the code directly, 
 ## Or you can clone this repo with
-- [git clone](https://github.com/90t/public.git/)
+- [git clone](https://github.com/90t/bigmomma)
 - 
 - Requirements - latest version of Python3 - Git - Django2 - IDE/PYCHARM/ installed on your pc,
 - 
